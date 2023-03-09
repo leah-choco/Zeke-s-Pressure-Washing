@@ -1,18 +1,21 @@
-.navbar {
+nav {
     background: var(--color-bg-alt);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 2rem 6rem;
+    left: 50%;
+    bottom: 2rem;
+    gap: 0.1rem;
+    border-radius: 1rem;
+    margin: 0;
    
 }
 
-.navbar__links {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
+nav a {
+    background: transparent;
+    padding: 2rem;
+    border-radius: 15%;
+    font-size: 15px;
     color: var(--color-text);
      
 }

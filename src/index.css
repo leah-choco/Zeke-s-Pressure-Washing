@@ -9,3 +9,7 @@
   --color-container: #40BCD8;
   --color-text: #fff;
 }
+
+body {
+  background: var(--color-bg);
+}
