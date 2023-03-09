@@ -2,9 +2,9 @@ import React from 'react';
 
 import './services.css';
 
-// Import photos of different services
+import Service from '../../components/service/Service';
 
-// Need to add a component here to be duplicated for each service
+// Need to add images here to be duplicated for each service
 
 const Services = () => {
   return (
@@ -14,13 +14,13 @@ const Services = () => {
       </div>
 
       {/* <div className='services__container'>
-        <article imgUrl={} text='Concrete' />
-        <article imgUrl={} text='Roof Softwash' />
-        <article imgUrl={} text='Woodwork' />
-        <article imgUrl={} text='Gutters' />
-        <article imgUrl={} text='House Wash' />
+        <Service imgUrl={} text='Concrete' />
+        <Service imgUrl={} text='Roof Softwash' />
+        <Service imgUrl={} text='Woodwork' />
+        <Service imgUrl={} text='Gutters' />
+        <Service imgUrl={} text='House Wash' /> */}
 
-      </div> */}
+      {/* </div> */}
     </div>
   )
 }
