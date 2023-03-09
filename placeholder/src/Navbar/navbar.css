@@ -1,0 +1,18 @@
+.navbar {
+    background: var(--color-bg-alt);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+   
+}
+
+.navbar__links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    color: var(--color-text);
+     
+}
