@@ -2,7 +2,7 @@ import React from 'react';
 
 import './services.css';
 
-import Service from '../../components/service/Service';
+//import Service from '../../components/service/Service';
 
 // Need to add images here to be duplicated for each service
 
