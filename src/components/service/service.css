@@ -4,13 +4,15 @@
 
     display: flex;
     flex-direction: column;
-    background: var(--color-footer);
+    background: var(--color-bg-alt);
 }
 
 .service__component-image {
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     background: var(--color-bg);
+    justify-content: center;
+    align-items: center;
 }
 
 .service__component-image img {
@@ -40,9 +42,10 @@
 
 .service__component-content p {
     font-family: var(--font-family);
-    font-size: 11.65px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 35px;
 
     color: #fff;
+    border-color: var(--color-button);
 }

@@ -2,10 +2,10 @@ import React from 'react';
 
 import './services.css';
 
-//import Service from '../../components/service/Service';
+import Service from '../../components/service/Service';
 
 // Need to add images here to be duplicated for each service
-
+import concrete from '../../assets/Concrete.jpg';
 const Services = () => {
   return (
     <div className='services section__padding' id='services'>
@@ -13,14 +13,14 @@ const Services = () => {
         <h1>Our Services</h1>
       </div>
 
-      {/* <div className='services__container'>
-        <Service imgUrl={} text='Concrete' />
-        <Service imgUrl={} text='Roof Softwash' />
-        <Service imgUrl={} text='Woodwork' />
-        <Service imgUrl={} text='Gutters' />
-        <Service imgUrl={} text='House Wash' /> */}
+      <div className='services__container'>
+        <Service imgUrl={concrete} text='Concrete' />
+        <Service imgUrl={concrete} text='Roof Softwash' />
+        <Service imgUrl={concrete} text='Woodwork' />
+        <Service imgUrl={concrete} text='Gutters' />
+        <Service imgUrl={concrete} text='House Wash' />
 
-      {/* </div> */}
+      </div>
     </div>
   )
 }
