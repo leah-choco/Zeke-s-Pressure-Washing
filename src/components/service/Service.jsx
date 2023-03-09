@@ -7,7 +7,7 @@ const Service = ({ imgUrl, text }) => (
     <div className="service__component-image">
       <img src={imgUrl} alt="service_image" />
     </div>
-    <div className="service__component_-content">
+    <div className="service__component-content">
       <div>
         <h3>{text}</h3>
       </div>
