@@ -6,13 +6,12 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='navbar__links'>
-        <p><a href='#home'>Home</a></p>
-        <p><a href='#mission'>Our Mission</a></p>
-        <p><a href='#services'>Our Services</a></p>
-        <p><a href='#gallery'>Gallery</a></p>
-        <p><a href='#estimate'>Free Estimate</a></p>
-        <p><a href='#contact'>Contact Us</a></p>
-
+        <a href='#home'>Home</a>
+        <a href='#mission'>Our Mission</a>
+        <a href='#services'>Our Services</a>
+        <a href='#gallery'>Gallery</a>
+        <a href='#estimate'>Free Estimate</a>
+        <a href='#contact'>Contact Us</a>
       </div>
     </div>
   )
