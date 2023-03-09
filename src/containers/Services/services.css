@@ -1,0 +1,17 @@
+.services {
+    display: flex;
+    flex-direction: column;    
+}
+
+.services__heading {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+
+.services__heading h1 {
+    font-size: 62px;
+    line-height: 75px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}

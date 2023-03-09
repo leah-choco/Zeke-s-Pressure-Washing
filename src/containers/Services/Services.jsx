@@ -9,7 +9,7 @@ import Service from '../../components/service/Service';
 const Services = () => {
   return (
     <div className='services section__padding' id='services'>
-      <div className='service__heading'>
+      <div className='services__heading'>
         <h1>Our Services</h1>
       </div>
 
