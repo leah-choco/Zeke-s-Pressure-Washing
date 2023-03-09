@@ -6,3 +6,14 @@
     flex-direction: column;
     background: var(--color-footer);
 }
+
+.service__component-image {
+    width: 100%;
+    height: 100%;
+    background: var(--color-bg);
+}
+
+.service__component-image img {
+    width: 100%;
+    height: 100%;
+}
