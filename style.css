@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header {
@@ -37,4 +39,5 @@ nav {
 .nav__links ul li a {
     color: white;
     text-decoration: none;
+    font-size: 13px;
 }
