@@ -80,11 +80,17 @@ nav img {
 .home-btn {
     display: inline-block;
     text-decoration: none;
-    color: white;
-    border: 1px solid white;
+    color: black;
+    border: 2px solid black;
     padding: 12px 34px;
     font-size: 13px;
-    background: transparent;
     position: relative;
     cursor: pointer;
+    background-color: #f44336;
+}
+
+.home-btn:hover {
+    border:2px solid white;
+    color: white;
+    transition: 0.5;
 }
