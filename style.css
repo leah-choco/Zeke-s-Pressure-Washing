@@ -6,8 +6,9 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) url(images/braden-collum-tsYlX1DSjn4-unsplash.jpg);
+    background-image: url(images/braden-collum-tsYlX1DSjn4-unsplash.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
 }
+/* linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)) */
