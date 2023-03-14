@@ -41,3 +41,17 @@ nav {
     text-decoration: none;
     font-size: 13px;
 }
+
+.nav__links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav__links ul li:hover::after {
+    width: 100%;
+}
