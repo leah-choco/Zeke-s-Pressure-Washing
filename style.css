@@ -194,3 +194,11 @@ h3 {
    text-align: center;
    padding-top: 50px ; 
 }
+
+.gallery-col {
+    flex-basis: 32%;
+}
+
+.gallery-col img {
+    width: 400px;
+}
