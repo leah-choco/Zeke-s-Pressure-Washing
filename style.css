@@ -238,3 +238,11 @@ h3 {
     bottom: 49%;
     opacity: 1;
 }
+
+/* Free Estimate Section */
+.free-estimate {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
