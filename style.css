@@ -204,14 +204,19 @@ h3 {
 }
 
 .gallery-col img {
-    width: 100%;
+    width: 20%;
 }
 
 .layer {
-    background: rgba(226,0,0,0.7);
+    background: transparent;
     height: 100%;
     width: 100%;
     position: absolute;
     top:0;
     left: 0;
+    color: white;
+}
+
+.layer:hover {
+    background: rgba(226,0,0,0.7);
 }
