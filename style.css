@@ -240,9 +240,17 @@ h3 {
 }
 
 /* Free Estimate Section */
-.free-estimate {
+/* .free-estimate {
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+} */
+
+/* Testimonials Section */
+.testimonials {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
 }
