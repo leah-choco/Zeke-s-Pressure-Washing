@@ -342,7 +342,7 @@ h3 {
 .our-story {
     width: 80%;
     margin: auto;
-    padding-top: 80px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
 
@@ -357,5 +357,11 @@ h3 {
 }
 
 .about-col h1 {
-    
+    padding-top: 0;
+    text-align: center;
+
+}
+
+.about-col p {
+    padding: 15px 0 25px;
 }
