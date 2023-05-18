@@ -20,6 +20,9 @@ nav {
     /* padding: 2% 6%; */
     justify-content: space-between;
     align-items: center;
+    /* position: fixed; */
+    background-color: #51E5FF;
+    
 }
 
 nav img {
@@ -59,6 +62,10 @@ nav img {
     width: 100%;
 }
 
+.phone-number {
+    color: #fff;
+}
+
 .text-box {
     width: 90%;
     color: #fff;
@@ -88,6 +95,7 @@ nav img {
     position: relative;
     cursor: pointer;
     background-color: #f44336;
+    /* background-color: #51E5FF; */
 }
 
 .home-btn:hover {
@@ -147,7 +155,7 @@ h1 {
 }
 
 .mission p {
-    color: #777;
+    color: black;
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -163,7 +171,7 @@ h1 {
 
 .mission-col {
     flex-basis: 31%;
-    background: #fff3f3;
+    background: #51E5FF;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -260,7 +268,7 @@ h3 {
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #fff3f3;
+    background: #51E5FF;
     padding: 25px;
     cursor: pointer;
     display: flex;
