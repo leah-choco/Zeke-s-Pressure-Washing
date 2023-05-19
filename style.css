@@ -377,3 +377,8 @@ h3 {
 .about-col p {
     padding: 15px 0 25px;
 }
+
+.services-header h1{
+    padding-top: 100px;
+    text-align: center;
+}
