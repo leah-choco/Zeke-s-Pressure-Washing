@@ -308,6 +308,10 @@ h3 {
     padding: 100px 0;
 }
 
+.cta p {
+    color: #fff;
+}
+
 .cta h1 {
     color: #fff;
     margin-bottom: 40px;
