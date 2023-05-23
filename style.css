@@ -387,7 +387,19 @@ h3 {
     background: rgba(226,0,0,0.7);
 }
 
+/* Contact Page */
 .contact-header h1 {
     padding-top: 100px;
     text-align: center;
+}
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+
+}
+
+.location iframe {
+    width: 100%;
 }
