@@ -179,7 +179,7 @@ h1 {
 
 .mission-col {
     flex-basis: 31%;
-    background: #51E5FF;
+    background: #8cdedc;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -276,7 +276,7 @@ h3 {
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #51E5FF;
+    background: #8cdedc;
     padding: 25px;
     cursor: pointer;
     display: flex;
