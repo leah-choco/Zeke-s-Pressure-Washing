@@ -8,7 +8,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/tanner-boriack-GmoaEH48m8c-unsplash.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/Juan-Pressure-Washing-2.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -21,7 +21,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     /* position: fixed; */
-    background-color: #51E5FF;
+    /* background-color: #51E5FF; */
     
 }
 
@@ -45,7 +45,7 @@ nav img {
 .nav__links ul li a {
     color:#fff;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
 }
 
 .nav__links ul li::after {
@@ -64,6 +64,14 @@ nav img {
 
 .phone-number {
     color: #fff;
+    border: 2px solid white;
+    padding: 12px 34px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    background-color: #f44336;
+    margin-top: 10px;
+    text-decoration: none;
 }
 
 .text-box {
@@ -340,7 +348,7 @@ h3 {
 .sub-header {
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/braden-collum-tsYlX1DSjn4-unsplash.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/Juan-Pressure-Washing-2.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -378,19 +386,36 @@ h3 {
     padding: 15px 0 25px;
 }
 
-.services-header h1{
-    padding-top: 100px;
+.services-header{
+   height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/Juan-Pressure-Washing-2.jpeg);
+    background-position: center;
+    background-size: cover;
     text-align: center;
+    color: #fff;
 }
 
+.services-header h1 {
+    margin-top: 100px;
+}
 .services:hover {
     background: rgba(226,0,0,0.7);
 }
 
 /* Contact Page */
 .contact-header h1 {
-    padding-top: 100px;
-    text-align: center;
+    margin-top: 100px;
+}
+
+.contact-header{
+    height: 50vh;
+     width: 100%;
+     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(images/Juan-Pressure-Washing-2.jpeg);
+     background-position: center;
+     background-size: cover;
+     text-align: center;
+     color: #fff;
 }
 
 .location {
