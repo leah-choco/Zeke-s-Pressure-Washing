@@ -231,17 +231,17 @@ h3 {
     position: absolute;
     top:0;
     left: 0;
-    color: white;
+    color: black;
 }
 
 .layer:hover {
-    background: rgba(226,0,0,0.7);
+    background: rgba(2, 190, 211, 0.7);
 }
 
-.layer h3 {
+.layer h2 {
     width: 100%;
     font-weight: 500;
-    font-size: 26px;
+    font-size: 40px;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
@@ -250,7 +250,7 @@ h3 {
     transition: 0.5s;
 }
 
-.layer:hover h3{
+.layer:hover h2{
     bottom: 49%;
     opacity: 1;
 }
