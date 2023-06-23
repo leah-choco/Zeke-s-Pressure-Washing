@@ -386,6 +386,86 @@ h3 {
     padding: 15px 0 25px;
 }
 
+/* Services page */
+
+.concrete {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/CleanDriveway.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.concrete p {
+    color: #fff;
+}
+
+.concrete h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+@media(max-width:700px) {
+    .concrete h1 {
+        font-size: 24px;
+    }
+}
+
+.decks {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/Washed-Deck.jpeg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.decks p {
+    color: #fff;
+}
+
+.decks h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+@media(max-width:700px) {
+    .decks h1 {
+        font-size: 24px;
+    }
+}
+
+.gutters {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/GuttersBeforeAfter.PNG);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.gutters p {
+    color: #fff;
+}
+
+.gutters h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}
+@media(max-width:700px) {
+    .gutters h1 {
+        font-size: 24px;
+    }
+}
+
 .services-header{
    height: 50vh;
     width: 100%;
