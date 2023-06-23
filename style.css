@@ -344,6 +344,11 @@ h3 {
     font-weight: 600;
 }
 
+.footer i {
+    font-size: 30px;
+    padding: 10px;
+}
+
 /* Our Story Page */
 .sub-header {
     height: 50vh;
