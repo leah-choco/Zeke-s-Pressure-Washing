@@ -366,24 +366,26 @@ h3 {
     padding-bottom: 50px;
 }
 
+.about-name {
+    text-align: center;
+    margin-top: 10px;
+}
 .about-col {
     flex-basis: 48%;
-    padding: 30px 2px;
+    padding: 10px 2px;
 }
 
 .about-col img {
-    width: 60% ;
+    width: 300px ;
+    justify-content: center;
 
 }
 
-.about-col h1 {
-    padding-top: 0;
-    text-align: center;
 
-}
 
 .about-col p {
     padding: 15px 0 25px;
+    font-size: 20px;
 }
 
 /* Services page */
