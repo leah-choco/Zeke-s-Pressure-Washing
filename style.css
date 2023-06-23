@@ -52,7 +52,8 @@ nav img {
     content: '';
     width: 0%;
     height: 2px;
-    background: #f44336;
+    /* background: #f44336; */
+    background: #8cdedc;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -63,13 +64,14 @@ nav img {
 }
 
 .phone-number {
-    color: #fff;
-    border: 2px solid white;
+    color: black;
+    border: 2px solid black;
     padding: 12px 34px;
     font-size: 20px;
     position: relative;
     cursor: pointer;
-    background-color: #f44336;
+    /* background-color: #f44336; */
+    background: #8cdedc;
     margin-top: 10px;
     text-decoration: none;
 }
@@ -96,19 +98,20 @@ nav img {
 .home-btn {
     display: inline-block;
     text-decoration: none;
-    color: white;
-    border: 2px solid white;
+    color: black;
+    border: 2px solid black;
     padding: 12px 34px;
-    font-size: 13px;
+    font-size: 20px;
     position: relative;
     cursor: pointer;
-    background-color: #f44336;
+    /* background-color: #f44336; */
+    background: #8cdedc;
     /* background-color: #51E5FF; */
 }
 
 .home-btn:hover {
-    border:2px solid black;
-    color: black;
+    border:2px solid white;
+    color: white;
     transition: 0.5;
 }
 
@@ -127,7 +130,8 @@ nav .fa {
 
     .nav__links {
         position: fixed;
-        background: #f44336;
+        /* background: #f44336; */
+        background: #8cdedc;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -255,14 +259,6 @@ h3 {
     opacity: 1;
 }
 
-/* Free Estimate Section */
-/* .free-estimate {
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-} */
-
 /* Testimonials Section */
 .testimonials {
     width: 80%;
@@ -349,6 +345,7 @@ h3 {
     padding: 10px;
 }
 
+
 /* Our Story Page */
 .sub-header {
     height: 50vh;
@@ -376,21 +373,27 @@ h3 {
     margin-top: 10px;
 }
 .about-col {
-    flex-basis: 48%;
+    flex-basis: 50%;
     padding: 10px 2px;
 }
 
 .about-col img {
     width: 300px ;
     justify-content: center;
+    border-radius: 40px;
+    margin-left: 100px ;
 
 }
 
-
-
 .about-col p {
     padding: 15px 0 25px;
-    font-size: 20px;
+    font-size: 23px;
+}
+
+@media(max-width:700px) {
+    .about-col img {
+        margin-left: 20px;
+    }
 }
 
 /* Services page */
