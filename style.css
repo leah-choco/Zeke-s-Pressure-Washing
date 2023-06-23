@@ -105,15 +105,16 @@ nav img {
     position: relative;
     cursor: pointer;
     /* background-color: #f44336; */
-    background: #8cdedc;
+    /* background: #8cdedc; */
     /* background-color: #51E5FF; */
+    background-color: white;
 }
 
-.home-btn:hover {
+/* .home-btn:hover {
     border:2px solid white;
     color: white;
     transition: 0.5;
-}
+} */
 
 nav .fa {
     display: none;
@@ -453,7 +454,7 @@ h3 {
 .gutters {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/Services-Gutters.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/Services-Gutter2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -479,7 +480,7 @@ h3 {
 .house {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/Services-House.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/Services-HouseWash.jpeg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -531,7 +532,7 @@ h3 {
 .stain {
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/Services-Stain.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(images/Services-Stain2.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
